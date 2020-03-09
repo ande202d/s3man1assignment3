@@ -24,7 +24,7 @@ function doMagic(): void{
             if (e == " ") output += " ";
             else if ((number) > 70) output += e.toUpperCase();
             else if(number > 40) output += e.toLowerCase();
-            else if(number > 15) output += e;
+            else if(number > 10) output += e;
             else output += "?";
         });
     }
